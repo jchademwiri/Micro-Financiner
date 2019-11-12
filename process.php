@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 if (isset($_POST['email'])) {
     //Email information
     $admin_email='hello@playhousegraphix.co.za';
@@ -11,4 +11,4 @@ if (isset($_POST['email'])) {
 //Send email
 mail($admin_email, 'New Form Submission', $messege. '- ' . $phone, 'From: ', $email);
 
-header('location: http://playhousegraphix.co.za/microfinacier/success.html'); -->
+header('location: http://playhousegraphix.co.za/microfinance/success.html'); ?>

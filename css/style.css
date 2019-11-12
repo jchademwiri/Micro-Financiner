@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.4rem;
 }
 a {
   text-decoration: none;
+  color: #fff;
 }
 p {
   margin: 0.75rem 0;
@@ -27,7 +28,7 @@ p {
   text-align: center;
 }
 .text-primary {
-  color: #93cb52;
+  color: #02abfa;
 }
 
 .bg-light {
@@ -41,7 +42,7 @@ p {
 }
 
 .bg-primary {
-  background: #93cb52;
+  background: #02abfa;
   color: #fff;
 }
 
@@ -64,14 +65,14 @@ p {
 .btn {
   display: inline-block;
   color: #fff;
-  background: #93cb52;
+  background: #02abfa;
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 5px;
 }
 
 .btn:hover {
-  background: #7ab436;
+  background: #021553;
 }
 
 .btn-dark {
@@ -108,6 +109,10 @@ p {
   padding: 3rem;
 }
 
+ul li {
+  list-style: none;
+}
+
 /* Navbar */
 #navbar {
   display: flex;
@@ -132,13 +137,13 @@ p {
 }
 
 #navbar ul li a:hover {
-  background: #93cb52;
+  background: #02abfa;
   border-radius: 5px;
 }
 
 /* Showcase */
 #showcase {
-  background: #333 url('../img/showcase.jpg') no-repeat center center/cover;
+  background: #333 url("../img/showcase.jpg") no-repeat center center/cover;
   height: 100vh;
   color: #fff;
 }
@@ -167,13 +172,13 @@ p {
 }
 
 #what .items .item {
-  float: 1;
+  flex: 1;
   text-align: center;
   padding: 1rem;
 }
 
 #what .items .item i {
-  background: #93cb52;
+  background: #02abfa;
   padding: 1rem;
   border-radius: 50%;
   margin-bottom: 1rem;
@@ -187,7 +192,7 @@ p {
   flex: 1;
 }
 #who .who-img {
-  background: url('../img/people.jpg') no-repeat center center/cover;
+  background: url("../img/people.jpg") no-repeat center center/cover;
 }
 
 /*Section: Clients */
